@@ -1,5 +1,5 @@
 import { SignJWT, jwtVerify, type JWTPayload } from 'jose'
-import type { AccessTokenPayload, ServiceTokenPayload } from '@samuelaure/types'
+import type { AccessTokenPayload, ServiceTokenPayload } from '@samuelaure/nau-types'
 
 export class AuthError extends Error {
   constructor(

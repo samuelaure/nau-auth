@@ -1,6 +1,6 @@
 import { verifyAccessToken, AuthError } from '../core'
 import { COOKIE_ACCESS_TOKEN, COOKIE_REFRESH_TOKEN, buildAccessTokenCookie, buildRefreshTokenCookie } from '../cookies'
-import type { AccessTokenPayload } from '@samuelaure/types'
+import type { AccessTokenPayload } from '@samuelaure/nau-types'
 
 // Minimal shape matching NextRequest — avoids hard dependency on 'next'
 interface NextRequestLike {

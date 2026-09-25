@@ -7,7 +7,7 @@ import {
 } from '@nestjs/common'
 import { verifyAccessToken, verifyServiceToken, extractBearerToken, AuthError } from '../core'
 import { COOKIE_ACCESS_TOKEN } from '../cookies'
-import type { AccessTokenPayload, ServiceTokenPayload } from '@samuelaure/types'
+import type { AccessTokenPayload, ServiceTokenPayload } from '@samuelaure/nau-types'
 
 export const NAU_AUTH_SECRET = 'NAU_AUTH_SECRET'
 
